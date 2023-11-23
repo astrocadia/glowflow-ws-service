@@ -12,7 +12,7 @@ const io = new Server(server, {
 });
 
 UNIVERSES = [0x01, 0x02]
-const ESP32_IP_ADDRESS = '192.168.1.24';
+const ESP32_IP_ADDRESS = '172.20.10.12';
 const client = new e131.Client(ESP32_IP_ADDRESS);
 
 io.on('connection', (socket) => {
